@@ -52,6 +52,23 @@
 
 #### All three measures of central tendency are used to find the central value of the set of data.
 
+### <b><ins>Mean</ins></b> 
+#### Mean is the average of of the given numbers and is calculated by dividing the sum of given numbers by the total number of numbers.
+#### For a dataset with n values $x_1, x_2, x_3, ……, x_n$ the mean μ is given by:
+#### $μ = {\bar{X}} = (1/n)(\sum_{i=1}^n x_i)$
+#### Example: for the following data set: {2, 4, 6, 7, 10}:
+#### $μ = (2 + 4 + 6 + 7 + 10)/5 = 29/5 = 5.8$
+
+### <b><ins>Median</ins></b> 
+#### A median is the middle number in a sorted list of either ascending or descending numbers. The numbers must first be sorted or arranged in value order from lowest to highest or highest to lowest to determine the median value in a sequence. 
+#### Example: for the following data set: {2, 4, 6, 7, 10, 2, 44, 6, 17, 22, 5}
+#### Sorted order of the data set becomes {2, 2, 4, 5, 6, 6, 7, 10, 17, 22, 44}
+#### The median is the middle number in the sorted list, which is 6.
+
+### <b><ins>Mode</ins></b>
+#### The mode is the number that appears most frequently in a data set. A set of data may have one mode, more than one mode, or no mode at all.
+#### Example: for the previous data set: {2, 4, 6, 7, 10, 2, 44, 6, 17, 22, 5}, the mode is 2 and 6 because they both appear more than once in the data set.
+
 ## Measures of Dispersion
 
 #### In statistics, the dispersion measures help interpret data variability, i.e. to understand how homogenous or heterogeneous the data is or how squeezed or scattered the variable is.
