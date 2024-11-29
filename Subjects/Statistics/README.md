@@ -89,16 +89,39 @@
    - Co-efficient of Quartile Deviation
    - Co-efficient of Mean Deviation
 
-## Skewness -
+## Range -
+#### Range refers to the difference between the highest and lowest values in a dataset. It provides a simple measure of the spread or dispersion or variability of the data. Calculating the range involves subtracting the minimum value from the maximum value.
+#### Range = Upper Limit of the Last Class Interval - Lower Limit of First Class Interval
 
+## Variance - 
+#### Variance is a statistical measurement of the average spread between numbers in a data set. It measures how far each number in the set is from the mean (average), and thus from every other number in the set. Variance is often depicted by this symbol: $σ^2$
+#### In statistics, variance measures variability from the average or mean. In particular, it measures the degree of dispersion of data around the sample's mean. It is calculated by taking the differences between each number in the data set and the mean, squaring the differences to make them positive, and then dividing the sum of the squares by the number of values in the data set.
+#### Variance helps determine the data's spread size when compared to the mean value. As the variance gets bigger, more variation in data values occurs, and there may be a larger gap between one data value and another. If the data values are all close together, the variance will be smaller.
+#### Population Variance Formula -
+#### $σ^2 = (1/N)\sum_{i=1}^N (x_i - μ )^2$ , 
+#### where $σ^2$ is variance of the population, μ is mean of the population, $x_i$ represents each observation in the population, N is number of total observations
+#### Sample Variance Formula -
+#### $σ^2 = (1/N -1)\sum_{i=1}^N (x_i - μ )^2$ , 
+#### where $σ^2$ is variance of the sample data set, μ is mean of all values in the data set, $x_i$ represents each values in the set, N is number of total values in the data set
+
+
+## Standard Deviation -
+#### Standard deviation is a statistical measurement that looks at how far individual points in a dataset are dispersed from the mean of that set. If data points are further from the mean, there is a higher deviation within the data set. We denote the standard deviation of the data using the symbol σ. We can also define the standard deviation as the square root of the variance.
+#### Standard Deviation is a non-negative quantity i.e. it always has positive values or zero values. If all the values in a data set are similar then Standard Deviation has a value close to zero. Whereas if the values in a data set are very different from each other then standard deviation has a high positive value.
+#### Population Standard Variation -
+#### $σ^2 = \sqrt(1/N)\sum_{i=1}^N (x_i - μ )^2$ , 
+#### where σ is standard variation of the population, μ is mean of the population, $x_i$ represents each observation in the population, N is number of total observations
+#### Sample Standard Variation -
+#### $σ^2 = \sqrt(1/N -1)\sum_{i=1}^N (x_i - μ )^2$ , 
+#### where σ is standard variation of the sample data set, μ is mean of all values in the data set, $x_i$ represents each values in the set, N is number of total values in the data set
+
+## Skewness -
 #### Skewness, in statistics, is a measure of the asymmetry in a probability distribution. It measures the deviation of the curve of the normal distribution for a given set of data. 
 
 ## ANOVA Statistics - 
-
 #### ANOVA Stands for Analysis of Variance. It is a collection of statistical models, used to measure the mean difference for the given set of data.
 
-## Degrees of freedom
-
+## Degrees of freedom -
 #### In statistical analysis, the degree of freedom is used for the values that are free to change. The independent data or information that can be moved while estimating a parameter is the degree of freedom of information. 
 <br>
 <br>
@@ -137,6 +160,7 @@
 
 ## Random Variable --
 #### Random variable in statistics is a function that assigns a real value to an outcome in the sample space of a random experiment. Random Variable Probability is a mathematical concept that assigns numerical values to outcomes of a sample space. They can describe the outcomes of objective randomness (like tossing a coin) or subjective randomness(results of a cricket game).
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230527112541/Probability-1.png)
 #### Mathematically, Random variable is expressed as -
 #### **X** : **S** &rarr; **R**, where X is Random Variable, S is Sample Space, R is Set of Real Numbers
 #### Suppose a random variable X takes m different values or sample spaces, then
@@ -168,8 +192,36 @@
 
 #### Random variables are of two types that are,
 
-   - Discrete Random Variable
-   - Continuous Random Variable
+   - Numerical Random Variable, are of two types -
+      <br>1. Discrete Random Variable
+      <br>2. Continuous Random Variable</br>
+   - Catagorical Random Variable
 
 ## Discrete Random Variable -
-#### 
+####  A discrete random variable is a variable that can take any whole number values as outcomes of a random experiment. The value should not be negative. A discrete random variable can be defined as a type of variable whose value depends upon the numerical outcomes of a certain random phenomenon. It is also known as a stochastic variable. Discrete random variables are always whole numbers, which are easily countable. A probability mass function ( PMF ) is used to describe the probability distribution of a discrete random variable.
+#### [Stochastic -- having a random probability distribution or pattern that may be analysed statistically but may not be predicted precisely]
+#### Example - The number of heads in a coin toss, the number of students in a class
+
+## Continuous Random Variable -
+#### A continuous random variable can be defined as a random variable that can take on an infinite number of possible values within a range. Due to this, the probability that a continuous random variable will take on an exact value is 0. The cumulative distribution function and the probability density function ( PDF ) are used to describe the characteristics of a continuous random variable. Continuous Random Variables need not to be whole numbers. They can be decimal numbers, fractions, or even negative numbers.
+#### Example - The height of a person, the time taken to complete a task, the temperature of a room, salary of employees, loan amount issued, interest rate of several banks
+
+## Catagorical Random Variable - 
+#### A categorical variable is a type of data that consists of textual categories or labels instead of numerical values. It is commonly used in statistical modeling and is transformed into numerical data through the creation of dummy variables. These dummy variables represent the presence or absence of a specific category and are coded as 1 or 0.
+#### Example - No of genders present in a class ( Male / Female / Other) where Male / Female coded as 1 and Other coded as 0
+
+## Probability Distribution -
+#### A probability distribution describes all the possible values and likelihoods that a random variable can take within a given range. This range will be bounded between the minimum and maximum possible values. Probability distribution represents an abstract representation of the frequency distribution. While a frequency distribution pertains to a particular sample or dataset, detailing how often each potential value of a variable appears within it, the occurrence of each value in the sample is dictated by its probability. A probability distribution, not only shows the frequencies of different outcomes but also assigns probabilities to each outcome. These probabilities indicate the likelihood of each outcome occurring.
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20240527193742/Probability-Distribution-01.webp "Probability Distribution Chart")
+## Gaussian Distribution / Normal Distribution - 
+#### Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. The normal distribution appears as a "bell curve" when graphed. 
+#### The normal distribution is the most common type of distribution assumed in technical stock market analysis. The standard normal distribution has two parameters: the mean and the standard deviation. In a normal distribution, mean, median, and mode are equal. These values represent the peak or highest point. The distribution then falls symmetrically around the mean, the width of which is defined by the standard deviation. 
+#### The normal distribution is the proper term for a probability bell curve. In a normal distribution, the mean is zero and the standard deviation is 1. It has zero skew and a kurtosis of 3.
+#### Normal distributions are symmetrical, but not all symmetrical distributions are normal.
+#### Emperical Rule -
+#### 1. For all normal distributions, 68.2% of the observations will appear within the range of one standard deviation of the mean, Pr[ μ - σ $\le$ x $\le$ μ + σ $\approx$ 68.2% ]
+#### 2. 95.4% of the observations will appear within the range of two standard deviations of the mean, Pr[ μ - 2σ $\le$ x $\le$ μ + 2σ $\approx$ 95.4% ]
+#### 3. 99.7% of the observations will appear within the range of three standard deviations of the mean, Pr[ μ - 3σ $\le$ x $\le$ μ + 3σ $\approx$ 99.7% ]
+#### ![Alt text](https://www.investopedia.com/thmb/MFYWJ2ITVWAyenL8uPWQAgjLBPw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_final_Optimize_Your_Portfolio_Using_Normal_Distribution_23-0701d4f1047045a392ba624b68a8b8be.jpg)
+#### The formula for normal distribution is as -
+#### $f(x) = \frac{1}{σ\sqrt2π}e^{-\frac{1}{2}(\frac{x - μ}{σ})^2}$ , where x = value of the variable, f(x) is the probability function, μ is the mean of the values and σ is the standard deviation
